@@ -1,0 +1,45 @@
+name: ai_job_interview_simulator
+description: AI-powered job interview simulator built with Flutter.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  dio: ^5.7.0
+  speech_to_text: ^7.0.0
+  flutter_tts: ^4.0.2
+  camera: ^0.11.0+2
+  permission_handler: ^11.3.1
+  file_picker: ^8.1.2
+  animate_do: ^4.2.0
+  page_transition: ^2.1.0
+  lottie: ^3.1.2
+  pdf: ^3.11.1
+  printing: ^5.13.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/animations/
+    - assets/animations/chatbot.gif
+    - assets/images/
+    - assets/images/welp_logo.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.png"
